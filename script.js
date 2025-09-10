@@ -2,5 +2,5 @@ document.getElementById("berichtje").textContent = "Hallo wereld vanuit Javascri
 
 function begroet() {
   let naam = document.getElementById("naamInput").value;
-    document.getElementById("groet").textContent = "Hallo", naam, "!";
+    document.getElementById("groet").textContent = "Hallo" + naam + "!";
 }
