@@ -8,5 +8,5 @@ function begroet() {
 function bereken() {
   let a = parseInt(document.getElementById("a").value);
   let b = parseInt(document.getElementById("b").value);
-  document.getElementById("resultaat").textContent = "Resultaat: " (a + b);
+  document.getElementById("resultaat").textContent = "Resultaat: " + (a + b);
 }
