@@ -1,5 +1,6 @@
 document.getElementById("berichtje").textContent = "Hallo wereld vanuit Javascript!";
 
-function groet() {
-  document.getElementById("uitkomst").textContent = "Je hebt geklikt!";
+function begroet() {
+  let naam = document.getElementById("naamInput").value;
+    document.getElementById("groet").textContent = "Hallo", naam, "!";
 }
